@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Genos:wght@300&display=swap" rel="stylesheet">
+        <title>Login Form</title>
+    </head>
+    <style>
+        html{
+        scroll-behavior: smooth;
+        width: 100%;
+        }
+    </style>
+    <body class="bg-[#F3E8FF]">
+        <h1 class="text-xl mb-5 mt-2">City</h1>
+        <div class="relative">
+            <select class="block appearance-none w-full bg-white border border-gray-300 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
+            <option>Pune</option>
+            </select>
+            
+        </div>
+        <h1 class="text-xl mb-5 mt-2">Select Location</h1>
+        <h1 class="text-base mb-5">* for which micromarket analysis is required.</h1>
+        <div class="relative">
+            <select class="block appearance-none w-full bg-white border border-gray-300 text-gray-700 py-3 px-4 pr-8 rounded leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
+            <option>Khadki</option>
+            <option>Pimple Saudagar</option>
+            <option>Khadadi</option>
+            <option>Hinjewadi</option>
+            </select>  
+        </div>
+        <h1 class="text-xl ml-[48%] mt-2">OR</h1>
+        <div class="flex flex-row flex-wrap mt-4">
+            <h1 class="text-xl">Latitude</h1>
+            <h1 class="text-xl ml-[45%]">Longitude</h1>
+        </div>
+        <div class="flex flex-row flex-wrap mt-4">
+            <div class="mb-4">
+                <label for="number"></label>
+                <input type="tel" id="number" name="number" placeholder="Project Latitude" required class="border border-gray-400 rounded py-2 px-3 w-[280%] focus:outline-none focus:border-blue-400">
+            </div>
+            <div class="mb-4">
+                <label for="number"></label>
+                <input type="tel" id="number" name="number" placeholder="Project Longitude" required class="border border-gray-400 rounded py-2 px-3 w-[300%] ml-[205%] focus:outline-none focus:border-blue-400">
+            </div>
+        </div>
+        <a href ="dashboard" target="blank">
+            <button type="submit" class="bg-emerald-400 hover:bg-emerald-500 text-white font-bold py-3 px-4 rounded focus:outline-none focus:shadow-outline ml-2 w-50">Submit</button>
+        </a>
+    </body>
+</html> 
+  

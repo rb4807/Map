@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+        <title>Login Page</title>
+    </head>
+    <body class="bg-gray-200 flex items-center justify-center h-screen">
+        <div class="max-w-md w-full bg-white p-8 shadow-md">
+            <h2 class="text-2xl font-bold mb-5">Welcome to Login/Signup</h2>
+            <h1 class="text-2xl mb-5">Please enter details</h1>
+            <form>
+                <div class="mb-4">
+                    <label for="phone"></label>
+                    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="10 digit phone number" required class="border border-gray-400 rounded py-2 px-3 w-full focus:outline-none focus:border-blue-400">
+                </div>
+                <a href ="form" target="blank">
+                    <button type="submit" class="bg-blue-400 hover:bg-blue-600 text-white font-bold py-3 px-4 rounded focus:outline-none focus:shadow-outline w-full">Continue</button>
+                </a>
+            </form>
+            <div class="flex flex-row flex-wrap mt-4">
+                <button class="bg-red-500 hover:bg-red-600 text-white font-bold py-3 px-16 rounded focus:outline-none focus:shadow-outline">Google</button>
+                <button class="ml-8 bg-blue-600 hover:bg-blue-900 text-white font-bold py-3 px-12 rounded focus:outline-none focus:shadow-outline">Facebook</button>
+            </div>
+            <div class="relative">
+                <p class="mt-2 text-gray-700 text-l font-bold">
+                    Note:
+                </p>
+                <p class="text-gray-700 text-sm absolute top-0 left-12">
+                    If you have entered an Email Id/Phone No. which
+                    is not registered on Sigma Value, the app will
+                    automatically go for Signup.
+                </p>
+            </div>
+            <div class="mt-12 ml-72 text-pink-500">
+                <a href="form">Admin Login</a>
+            </div>
+        </div>
+    </body>
+</html>
